@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script defer src="./index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h2> Assignment 9-11 </h2>
+    
+    <script>     
+    // //  ___Task 1____
+    // // Take city name as input from the user
+    // var cityName = prompt("Enter the city name:");
+    // // Check if the entered city name is "Karachi"
+    // if (cityName.toLowerCase() === "karachi") {
+    //     alert("WELCOME TO THE CITY OF LIGHTS !\nKARACHI MERI JAAN");
+    // } else {
+    //     alert("Welcome!");
+    // }
+
+    // //  ___Task 2____
+    // // Take gender as input from the user
+    // var gender = prompt("Enter your gender (male/female):");
+    // // Check the gender and display the appropriate message
+    // if (gender.toLowerCase() === "male") {
+    //     alert("Good Morning Sir.");
+    // } else if (gender.toLowerCase() === "female") {
+    //     alert("Good Morning Ma'am.");
+    // } else {
+    //     alert("Good Morning!");
+    // }
+
+
+    // //  ___Task 3____  
+    // // Take color input from the user
+    // var color = prompt("Enter the color of the road traffic signal (red/yellow/green):");
+    // // Initialize the message and color class
+    // var message, colorClass;
+    // // Determine the message and color class based on the input color
+    // if (color.toLowerCase() === "red") {
+    //     message = "Must Stop";
+    //     colorClass = "red";
+    // } else if (color.toLowerCase() === "yellow") {
+    //     message = "Ready to Move";
+    //     colorClass = "yellow";
+    // } else if (color.toLowerCase() === "green") {
+    //     message = "Move Now";
+    //     colorClass = "green";
+    // } else {
+    //     message = "Invalid color input";
+    //     colorClass = "invalid";
+    // }
+    // // Display the message in a table format
+    // document.write("<table>");
+    // document.write("<tr><th>Color</th><th>Message</th></tr>");
+    // document.write("<tr class='" + colorClass + "'><td>" + color + "</td><td>" + message + "</td></tr>");
+    // document.write("</table>");
+
+    // //  ___Task 4____  
+    // // Take input for remaining fuel in car from the user
+    // var remainingFuel = parseFloat(prompt("Enter the remaining fuel in your car (in litres):"));
+    // // Check if the remaining fuel is less than 0.25 litres
+    // if (remainingFuel < 0.25) {
+    //     alert("Please refill the fuel in your car.");
+    // } else {
+    //     alert("You have enough fuel.");
+    // }
+
+    // //  ___Task 5____  
+    // // a.
+    // var a = 4;
+    // if (++a === 5){
+    //     alert("given condition for variable a is true");
+    // }
+    // // Output: Alert message will be displayed.
+
+    // // b.
+    // var b = 82;
+    // if (b++ === 83){
+    //     alert("given condition for variable b is true");
+    // }
+    // // Output: Alert message will not be displayed.
+
+    // // c.
+    // var c = 12;
+    // if (c++ === 13){
+    //     alert("condition 1 is true");
+    // }
+    // if (c === 13){
+    //     alert("condition 2 is true");
+    // }
+    // if (++c < 14){
+    //     alert("condition 3 is true");
+    // }
+    // if(c === 14){
+    //     alert("condition 4 is true");
+    // }
+    // // Output: Alert messages for "condition 2 is true" and "condition 4 is true" will be displayed.
+
+    // // d.
+    // var materialCost = 20000;
+    // var laborCost = 2000;
+    // var totalCost = materialCost + laborCost;
+    // if (totalCost === laborCost + materialCost){
+    //     alert("The cost equals");
+    // }
+    // // Output: Alert message will be displayed.
+
+    // // e.
+    // if (true){
+    //     alert("True");
+    // }
+    // if (false){
+    //     alert("False");
+    // }
+    // // Output: Only the alert message "True" will be displayed.
+
+    // //  ___Task 6____
+    // // Take input for marks obtained in three subjects and total marks
+    // var subject1Marks = parseFloat(prompt("Enter marks obtained in subject 1:"));
+    // var subject2Marks = parseFloat(prompt("Enter marks obtained in subject 2:"));
+    // var subject3Marks = parseFloat(prompt("Enter marks obtained in subject 3:"));
+    // var totalMarks = parseFloat(prompt("Enter total marks:"));
+    // // Calculate total obtained marks and percentage
+    // var obtainedMarksTotal = subject1Marks + subject2Marks + subject3Marks;
+    // var percentage = (obtainedMarksTotal / (totalMarks * 3)) * 100;
+    // // Determine grade and remarks based on the percentage
+    // var grade, remarks;
+    // if (percentage >= 80) {
+    //     grade = "A-1";
+    //     remarks = "Excellent";
+    // } else if (percentage >= 70) {
+    //     grade = "A";
+    //     remarks = "Good";
+    // } else if (percentage >= 60) {
+    //     grade = "B";
+    //     remarks = "Need to improve";
+    // } else {
+    //     grade = "Fail";
+    //     remarks = "Sorry";
+    // }
+    // // Display the result
+    // document.write("<h2>Result</h2>");
+    // document.write("<p>Marks Obtained in Subject 1: " + subject1Marks + "</p>");
+    // document.write("<p>Marks Obtained in Subject 2: " + subject2Marks + "</p>");
+    // document.write("<p>Marks Obtained in Subject 3: " + subject3Marks + "</p>");
+    // document.write("<p>Total Marks: " + totalMarks * 3 + "</p>");
+    // document.write("<p>Obtained Marks Total: " + obtainedMarksTotal + "</p>");
+    // document.write("<p>Percentage: " + percentage.toFixed(2) + "%</p>");
+    // document.write("<p>Grade: " + grade + "</p>");
+    // document.write("<p>Remarks: " + remarks + "</p>");
+
+    // //  ___Task 7____ 
+    // // Generate a random secret number between 1 and 10
+    // var secretNumber = Math.floor(Math.random() * 10) + 1;
+
+    // // Prompt user to guess the secret number
+    // var userGuess = parseInt(prompt("Guess the secret number (between 1 and 10):"));
+
+    // // Check the user's guess
+    // if (userGuess === secretNumber) {
+    //     alert("Bingo! Correct answer.");
+    // } else if (userGuess === secretNumber + 1 || userGuess === secretNumber - 1) {
+    //     alert("Close enough to the correct answer.");
+    // } else {
+    //     alert("Sorry, the correct answer was " + secretNumber + ".");
+    // }
+
+    // //  ___Task 8____ 
+    // // Take input from the user
+    // var number = parseInt(prompt("Enter a number:"));
+    // // Check if the number is divisible by 3
+    // if (number % 3 === 0) {
+    //     alert(number + " is divisible by 3.");
+    // } else {
+    //     alert(number + " is not divisible by 3.");
+    // }
+
+    // //  ___Task 9____ 
+    // // Take input from the user
+    // var number = parseInt(prompt("Enter a number:"));
+
+    // // Check if the number is even or odd
+    // if (number % 2 === 0) {
+    //     alert(number + " is an even number.");
+    // } else {
+    //     alert(number + " is an odd number.");
+    // }
+
+    // //  ___Task 10____ 
+    // // Take input from the user
+    // var temperature = parseFloat(prompt("Enter the temperature:"));
+
+    // // Check the temperature and display a message
+    // if (temperature > 40) {
+    //     alert("It is too hot outside.");
+    // } else if (temperature > 30) {
+    //     alert("The Weather today is Normal.");
+    // } else if (temperature > 20) {
+    //     alert("Today’s Weather is cool.");
+    // } else if (temperature > 10) {
+    //     alert("OMG! Today’s weather is so Cool.");
+    // } else {
+    //     alert("It's extremely cold outside.");
+    // }
+
+    // //  ___Task 11____ 
+    // Take input from the user
+    // var firstNumber = parseFloat(prompt("Enter the first number:"));
+    // var secondNumber = parseFloat(prompt("Enter the second number:"));
+    // var operation = prompt("Enter the operation (+, -, *, /, %):");
+
+    // // Perform the operation and display the result
+    // var result;
+    // if (operation === "+") {
+    //     result = firstNumber + secondNumber;
+    // } else if (operation === "-") {
+    //     result = firstNumber - secondNumber;
+    // } else if (operation === "*") {
+    //     result = firstNumber * secondNumber;
+    // } else if (operation === "/") {
+    //     result = firstNumber / secondNumber;
+    // } else if (operation === "%") {
+    //     result = firstNumber % secondNumber;
+    // } else {
+    //     result = "Invalid operation";
+    // }
+    // alert("Result: " + result);
+
+    
+    </script>
+</body>
+</html>

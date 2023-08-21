@@ -5,4 +5,7 @@ Assignment 01 - 05
 Declaring Variable, increment/decrement, alert, some small practice project.
 
 Assignment 06 - 09
-Declaring Variable, increment/decrement , loops, some small practice projects.
+Declaring Variables, increment/decrement, loops, and some small practice projects.
+
+Assignment 06 - 09
+Declaring Variables, Math expressions loops, and some small practice projects.

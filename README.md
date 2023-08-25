@@ -7,5 +7,8 @@ Declaring Variable, increment/decrement, alert, some small practice project.
 Assignment 06 - 09
 Declaring Variables, increment/decrement, loops, and some small practice projects.
 
-Assignment 06 - 09
+Assignment 09 - 11
 Declaring Variables, Math expressions loops, and some small practice projects.
+
+Assignment 12 - 13
+Declaring Variables, Math expressions, If-Else Statement, and some small practice projects.
